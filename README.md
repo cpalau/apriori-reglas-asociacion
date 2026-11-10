@@ -73,8 +73,8 @@ print(len(frecuentes), "conjuntos y", len(reglas), "reglas")
 ## Origen de los datos
 
 El dataset se llama `Groceries` y acompaña a la librería de R
-[`arules`](https://cran.r-project.org/package=arules): **un mes (30 días) de
-transacciones reales de un supermercado austriaco**, agregadas a 169
+[`arules`](https://CRAN.R-project.org/package=arules): **un mes (30 días) de
+transacciones reales de un supermercado local típico**, agregadas a 169
 categorías. Lo publicaron Michael Hahsler, Kurt Hornik y Thomas Reutterer.
 
 - Documentación original:
