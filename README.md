@@ -36,17 +36,21 @@ conjuntos posibles: 2^169 = 7.483e+50
 pares posibles: 14196
 
 barrido de umbrales
-    5.0 %      31 conjuntos       6 reglas
-    2.0 %     122 conjuntos      73 reglas
-    1.0 %     333 conjuntos     234 reglas
-    0.5 %    1001 conjuntos     892 reglas
-    0.2 %    4223 conjuntos    5499 reglas
-    0.1 %   13492 conjuntos   24871 reglas
+    5.0 %      31 conjuntos       6 reglas   0.01 s
+    2.0 %     122 conjuntos      73 reglas   0.02 s
+    1.0 %     333 conjuntos     234 reglas   0.04 s
+    0.5 %    1001 conjuntos     892 reglas   0.10 s
+    0.2 %    4223 conjuntos    5499 reglas   0.49 s
+    0.1 %   13492 conjuntos   24871 reglas   2.01 s
 
 por tamaño: {1: 88, 2: 213, 3: 32}
 candidatos: {1: 169, 2: 3828, 3: 576, 4: 6} total 4579
+
 234 reglas; lift>1: 231, lift>1,5: 163
 ```
+
+Los tiempos son de una máquina concreta (Ryzen 7 8745HS, Python 3.13,
+mlxtend 0.25) y varían; el resto de cifras no.
 
 El mínimo ejemplo, si prefieres empezar por ahí:
 
